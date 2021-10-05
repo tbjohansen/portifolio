@@ -4,7 +4,7 @@ import React from 'react';
 import {Button} from "./common/Button";
 
 //assets import
-import Dev from '../assests/web_dev.svg';
+import Dev from '../assests/illustrations/web_dev.svg';
 
 class Home extends React.Component {
     //

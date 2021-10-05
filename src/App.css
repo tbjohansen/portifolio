@@ -1,33 +1,38 @@
 
 .home {
     margin: 20px 30px;
-    width: 100%;
+    /*width: 100%;*/
     padding: 20px;
     display: grid;
     grid-template: 1fr/ 1.2fr 0.8fr;
 }
 
 .home h2 {
+    font-family: CalibreBold, serif;
     font-size: 60px;
     font-weight: bold;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .home h4 {
+    font-family: SFMonoLight, serif;
     font-size: 20px;
 }
 
 .home p {
+    font-family: SFMonoLight, serif;
     font-size: 20px;
     text-align: justify;
-    width: 80%;
+    /*width: 80%;*/
 }
 
 .home button {
+    font-family: SFMonoLight, serif;
     border-radius: 4px;
     font-weight: 700;
-    font-size: 15px;
-    width: 200px;
+    font-size: 16px;
+    width: 300px;
+    height: 70px;
     padding: 20px;
     margin: 20px auto;
     border: 1px solid #6C63FF;

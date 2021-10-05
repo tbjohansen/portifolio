@@ -2,9 +2,46 @@
   margin: 0;
 }
 
+/* Get a good font to be used throughout the web app */
+@font-face {
+  font-family: "CalibreLight";
+  src: url("./assests/fonts/CalibreLight.otf") format("truetype");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: "CalibreRegular";
+  src: url("./assests/fonts/CalibreRegular.otf") format("truetype");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: "CalibreMedium";
+  src: url("./assests/fonts/CalibreMedium.otf") format("truetype");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: "CalibreSemibold";
+  src: url("./assests/fonts/CalibreSemibold.otf") format("truetype");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: "CalibreBold";
+  src: url("./assests/fonts/CalibreBold.otf") format("truetype");
+  /* font-weight: normal; */
+}
+
+@font-face {
+  font-family: "SFMonoLight";
+  src: url("./assests/fonts/SFMonoLight.otf") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "CalibreMedium", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
