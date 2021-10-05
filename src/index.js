@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+//styles import
 import './index.css';
+
+//redux imports
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+
+//reducer import
+import Reducer from './reducers';
+
+//components import
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//property declaration
+const ReduxThunk = require('redux-thunk').default;
+const store = createStore(Reducer, applyMiddleware(ReduxThunk));
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Provider store={store}>
+        <App />
+    </Provider>,
   document.getElementById('root')
 );
 
