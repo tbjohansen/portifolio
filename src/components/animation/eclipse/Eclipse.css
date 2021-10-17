@@ -1,0 +1,37 @@
+
+body {
+    background-color: black;
+}
+
+.cunt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 35%;
+}
+
+.moon {
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 36%;
+    right: 50%;
+    animation-name: moon;
+    animation: 80s infinite;
+}
+
+@keyframes moon {
+    0% { left: 0%; }
+    25% { left: 100%; }
+    50% { left: 170%; }
+}

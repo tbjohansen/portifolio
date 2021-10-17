@@ -7,6 +7,8 @@ import Main from "./components/Main";
 //style import
 import logo from './logo.svg';
 import './App.css';
+import Hexagon from "./components/animation/hexa/Hexagon";
+import Eclipse from "./components/animation/eclipse/Eclipse";
 
 class App extends React.Component {
 
